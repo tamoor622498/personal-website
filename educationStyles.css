@@ -70,23 +70,4 @@ h1 {
   animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=educationStyles.css.map */
