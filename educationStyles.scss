@@ -7,17 +7,9 @@ body
     background-color: black;
 }
 
-@media (max-width: 10010px) {
-    h1 {
-        font-size: 25px;
-    }
-} 
-
-@media (min-width: 1011px) {
-    h1 {
-        font-size: 50px;
-    }
-} 
+#relCourse {
+    font-size: x-large;
+}
 
 div {
     color:white;

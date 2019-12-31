@@ -2,16 +2,10 @@ body {
   background-color: black;
 }
 
-@media (max-width: 10010px) {
-  h1 {
-    font-size: 25px;
-  }
+#relCourse {
+  font-size: x-large;
 }
-@media (min-width: 1011px) {
-  h1 {
-    font-size: 50px;
-  }
-}
+
 div {
   color: white;
   font-family: "Roboto Mono", monospace;
