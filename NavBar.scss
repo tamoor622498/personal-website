@@ -1,43 +1,42 @@
 $navBarMargins: 50px;
-$textColor:white;
-$TypeFace: 'Roboto Mono', monospace;
+$textColor: white;
+$TypeFace: "Roboto Mono", monospace;
 
-body 
-{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 @media (max-width: 10010px) {
-    .nav-link {
-        color: $textColor;
-        margin-left: 2.5px;
-        margin-right: 2.5px;
-        margin-top: 2px;
-        font-size: medium;
-        font-family: $TypeFace;
-        border: none;
-    }
-} 
+  .nav-link {
+    color: $textColor;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 2px;
+    font-size: medium;
+    font-family: $TypeFace;
+    border: none;
+  }
+}
 
 @media (min-width: 1011px) {
-    .nav-link {
-        color: $textColor;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 10px;
-        font-size: x-large;
-        font-family: $TypeFace;
-        border: none;
-    }
-} 
-
-.nav-link:hover{
+  .nav-link {
     color: $textColor;
-    text-decoration: line-through;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: $TypeFace;
+    border: none;
+  }
+}
+
+.nav-link:hover {
+  color: $textColor;
+  text-decoration: line-through;
 }
 
 #NavBar {
-    border-style: none none dashed none;
-    border-width:  .3vh;
-    border-color: grey;
+  border-style: none none dashed none;
+  border-width: 0.3vh;
+  border-color: grey;
 }

@@ -1,28 +1,27 @@
-$navBarMargins: 50px;
-$textColor:white;
-$TypeFace: 'Roboto Mono', monospace;
+$textColor: white;
+$TypeFace: "Roboto Mono", monospace;
 
-body 
-{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 #relCourse {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 div {
-    color:white;
-    font-family: $TypeFace;
+  color: white;
+  font-family: $TypeFace;
 }
 
-#univ, .card {
-    margin-top: 40px;
-    background: transparent;
+#univ,
+.card {
+  margin-top: 40px;
+  background: transparent;
 }
 
 .list-group-item {
-    background: transparent;
-    border-style: soild;
-    border-color: white;
+  background: transparent;
+  border-style: soild;
+  border-color: white;
 }

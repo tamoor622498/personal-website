@@ -1,17 +1,15 @@
+$textColor: white;
+$TypeFace: "Roboto Mono", monospace;
+
 body {
   background-color: black;
 }
 
-#relCourse {
-  font-size: x-large;
-}
-
 div {
   color: white;
-  font-family: "Roboto Mono", monospace;
+  font-family: $TypeFace;
 }
 
-#univ,
 .card {
   margin-top: 40px;
   background: transparent;
@@ -22,5 +20,3 @@ div {
   border-style: soild;
   border-color: white;
 }
-
-/*# sourceMappingURL=educationStyles.css.map */
