@@ -6,38 +6,26 @@ body {
   h1 {
     font-size: 25px;
   }
-
-  h4 {
-    font-size: 15px;
-  }
 }
 @media (min-width: 1011px) {
   h1 {
     font-size: 50px;
   }
-
-  h4 {
-    font-size: 35px;
-  }
 }
-/*div {
-    color: white;
-    font-family: $TypeFace;
+div {
+  color: white;
+  font-family: "Roboto Mono", monospace;
 }
 
-#name {
-    background-color:transparent;
-    position: relative;
-    height: 14rem;
-    padding-top: 80vh;
-  }
+#univ, .card {
+  margin-top: 40px;
+  background: transparent;
+}
 
-.jumbotron {
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-  }*/
+.list-group-item {
+  background: transparent;
+  border-style: soild;
+  border-color: white;
+}
 
 /*# sourceMappingURL=educationStyles.css.map */

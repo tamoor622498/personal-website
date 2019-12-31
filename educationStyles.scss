@@ -11,39 +11,26 @@ body
     h1 {
         font-size: 25px;
     }
-
-    h4 {
-        font-size: 15px;
-    }
 } 
 
 @media (min-width: 1011px) {
     h1 {
         font-size: 50px;
     }
-
-    h4 {
-        font-size: 35px;
-    }
 } 
 
-/*div {
-    color: white;
+div {
+    color:white;
     font-family: $TypeFace;
 }
 
-#name {
-    background-color:transparent;
-    position: relative;
-    height: 14rem;
-    padding-top: 80vh;
-  }
-  
-.jumbotron {
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-  }*/
+#univ, .card {
+    margin-top: 40px;
+    background: transparent;
+}
 
+.list-group-item {
+    background: transparent;
+    border-style: soild;
+    border-color: white;
+}
