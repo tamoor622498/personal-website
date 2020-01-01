@@ -7,15 +7,20 @@ div {
   font-family: "Roboto Mono", monospace;
 }
 
+#proj {
+  border: none;
+}
+
 .btn {
   background-color: transparent;
   border-color: white;
 }
 
-.btn:hover {
-  background-color: white;
-  border-color: white;
-  color: black;
+.btn:hover, .btn:active, .btn:focus {
+  background-color: white !important;
+  border-color: white !important;
+  color: black !important;
+  box-shadow: none;
 }
 
 h5 {
