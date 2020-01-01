@@ -14,8 +14,13 @@ div {
 
 .btn:hover {
   background-color: white;
-  border-color: black;
+  border-color: white;
   color: black;
+}
+
+h5 {
+  padding: 5px;
+  border-style: none none dotted none;
 }
 
 .card {
