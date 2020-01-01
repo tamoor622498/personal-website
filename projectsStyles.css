@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+div {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
+.card {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: transparent;
+  border-style: solid;
+  border-color: white;
+}
+
+/*# sourceMappingURL=projectsStyles.css.map */
