@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+div {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+h5 {
+  padding: 5px;
+  border-style: none none dotted none;
+}
+
+.card {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: transparent;
+  border-style: none;
+  border-color: white;
+}
+
+#DLA {
+  filter: invert(100%);
+}
+
+img {
+  height: 20vh;
+  width: 15vw;
+}
+
+/*# sourceMappingURL=experienceStyles.css.map */
