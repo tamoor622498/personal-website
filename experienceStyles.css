@@ -25,9 +25,9 @@ h5 {
   filter: invert(100%);
 }
 
-img {
-  height: 20vh;
-  width: 15vw;
+.card-img-top {
+  height: 15vh;
+  width: 25vh;
 }
 
 /*# sourceMappingURL=experienceStyles.css.map */
