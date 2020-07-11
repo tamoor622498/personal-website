@@ -1,0 +1,10 @@
+<div class="container theme-showcase" role="main" id="name">
+        <div class="jumbotron-fluid nameWrap">
+            <h1 class="My-Name">Hi, I'm Tamoor.</h1>
+        </div>
+    </div>
+
+
+            <div class="container-flex nameWrap">
+            <h1 class="My-Name">Hi, I'm Tamoor.</h1>
+        </div>
