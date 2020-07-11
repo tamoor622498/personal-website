@@ -8,3 +8,13 @@
             <div class="container-flex nameWrap">
             <h1 class="My-Name">Hi, I'm Tamoor.</h1>
         </div>
+
+
+
+        <div class="row d-flex justify-content-between">
+            <div class="container-flex nameWrap">
+                <h1 class="My-Name">Hi, I'm Tamoor.</h1>
+            </div>
+            <div class="container-flex text-right">
+                <h1 class="text-right">Employment: <span class="badge badge-success">Looking for internships</span</h1>
+            </div>

@@ -3,21 +3,51 @@ body {
     color: white;
 }
 
-h1 {
-    font-size: larger;
+.container,
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.top-text {
+    font-size: 1.25em;
     padding: 0;
 }
 
-.row {
+.top-row {
     margin-top: 2em;
 }
 
-.nameWrap {
+.top-wrap {
+    margin: 1em;
+    background-color: transparent;
+    border: none;
     width: max-content;
 }
 
+.intro {
+    border: none;
+    background-color: transparent;
+}
+
+.secTitle {
+    margin-top: 1em;
+}
+
+.education {
+    background-color: #1b1b2f;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.edu-para {
+    margin: 1em;
+}
+
 .My-Name {
-    color: white;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid white;
