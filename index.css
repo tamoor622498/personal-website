@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b2f;
+    background-color: #162447;
     color: white;
 }
 
@@ -46,6 +46,10 @@ body {
     padding-top: 1em;
 }
 
+a {
+    color: white;
+}
+
 a:hover {
     color: white;
 }
@@ -67,6 +71,14 @@ img {
 p {
     margin: .5em 0;
     font-size: large;
+}
+
+ul {
+    padding: 0;
+}
+
+.project {
+    margin: 1em 0;
 }
 
 .My-Name {
