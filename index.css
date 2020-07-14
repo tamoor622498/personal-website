@@ -37,9 +37,22 @@ body {
 }
 
 .contact {
-    margin: 0;
+    margin: 1em 0 0;
     padding: 0;
     color: white;
+}
+
+.textLink {
+    padding-top: 1em;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    margin: 1em 0 0;
 }
 
 .secTitle {
@@ -52,7 +65,7 @@ body {
 }
 
 p {
-    margin: 1em;
+    margin: .5em 0;
     font-size: large;
 }
 
