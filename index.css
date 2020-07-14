@@ -1,10 +1,9 @@
 body {
-    background-color: #162447;
+    background-color: #1b1b2f;
     color: white;
 }
 
-.container,
-.card {
+.container {
     border: none;
     background-color: transparent;
 }
@@ -18,33 +17,43 @@ body {
     margin-top: 2em;
 }
 
+.card,
+.list-group-item {
+    background-color: transparent;
+    padding: .2em;
+    border: none;
+}
+
+.card-body {
+    margin: 0;
+    padding: 0 1em;
+}
+
 .top-wrap {
-    margin: 1em;
+    margin: 1em 0;
     background-color: transparent;
     border: none;
     width: max-content;
 }
 
-.intro {
-    border: none;
-    background-color: transparent;
+.contact {
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 .secTitle {
-    margin-top: 1em;
+    margin-top: .5em;
+    color: rgb(255, 237, 141);
 }
 
 .education {
-    background-color: #1b1b2f;
-    margin: 0;
+    background-color: transparent;
 }
 
 p {
-    margin: 0;
-}
-
-.edu-para {
     margin: 1em;
+    font-size: large;
 }
 
 .My-Name {
