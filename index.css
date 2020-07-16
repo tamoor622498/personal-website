@@ -58,10 +58,7 @@ body {
     }
 }
 
-a {
-    color: white;
-}
-
+a,
 a:hover {
     color: white;
 }
