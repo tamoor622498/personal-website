@@ -42,9 +42,20 @@ body {
     color: white;
 }
 
-.textLink {
-    padding-top: 1em;
-    text-align: center;
+.textNav {
+    width: 95vw;
+}
+
+@media screen and (max-width: 350px) {
+    .textLink {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .emailMe {
+        font-size: .9em;
+    }
 }
 
 a {
@@ -74,6 +85,10 @@ p {
     font-size: large;
 }
 
+.t {
+    background-color: transparent;
+}
+
 ul {
     padding: 0;
 }
@@ -84,7 +99,7 @@ ul {
 
 .card-link {
     padding: .25em;
-    border: .01em solid white;
+    border: 1px solid white;
     border-radius: .25em;
 }
 
