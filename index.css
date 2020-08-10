@@ -1,6 +1,7 @@
 body {
     background-color: #162447;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -100,6 +101,14 @@ ul {
     border-radius: .25em;
 }
 
+.card-link:hover {
+    padding: .25em;
+    border: 1px solid rgb(255, 237, 141);
+    background-color: rgb(255, 237, 141);
+    border-radius: .25em;
+    color: black;
+}
+
 .My-Name {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -111,7 +120,7 @@ ul {
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: 0.15em;
     /* Adjust as needed */
-    animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 
